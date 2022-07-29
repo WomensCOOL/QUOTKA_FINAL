@@ -137,12 +137,12 @@ function BoardDetail(props) {
               <CommentUl key={index}>
                 <React.Fragment key={index}>
                   <AddComment
-                    id={comment._id}
-                    boardId={BoardId}
-                    user={comment.userFrom}
-                    time={comment.createdAt}
-                    writer={comment.commentWriter}
-                    content={comment.commentContent}
+                    id={commentIdNew}
+                    boardId={boardIdNew}
+                    user={commentUserNew}
+                    time={commentTimeNew}
+                    writer={commentWriterNew}
+                    content={commentContentNew}
                     onRemove={onRemoveComment}
                   />
                   <ReplyImg

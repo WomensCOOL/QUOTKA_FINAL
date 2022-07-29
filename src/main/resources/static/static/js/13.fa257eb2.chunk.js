@@ -1,0 +1,2 @@
+(this["webpackJsonpraise-project"]=this["webpackJsonpraise-project"]||[]).push([[13],{409:function(t,a,e){"use strict";e.r(a);e(1);var c=e(14),n=e(167),p=e(168),r=e(2);a.default=Object(c.f)((function(t){var a=t.match;return Object(r.jsxs)(r.Fragment,{children:[Object(r.jsx)(c.a,{exact:!0,path:a.path,component:n.a}),Object(r.jsx)(c.a,{exact:!0,path:"".concat(a.path,"/:boardId"),component:p.default})]})}))}}]);
+//# sourceMappingURL=13.fa257eb2.chunk.js.map

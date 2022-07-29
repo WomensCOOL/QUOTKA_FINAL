@@ -44,7 +44,7 @@ function BoardList(history) {
           </thead>
           <tbody>
             <tr>
-              <td>1</td>
+              <td>9</td>
               <td>
                 <Link
                   style={{ textDecoration: 'none', color: 'black' }}
@@ -54,22 +54,64 @@ function BoardList(history) {
                 </Link>
               </td>
               <td>쿼억하</td>
-              <td>2022-03-19</td>
+              <td>2022-07-29</td>
               <td>32</td>
             </tr>
             <tr>
-              <td>2</td>
-              <td>게시글2</td>
-              <td>aaaaa</td>
-              <td>2022-03-19</td>
+              <td>8</td>
+              <td>구의 증명</td>
+              <td>jyjjang</td>
+              <td>2022-07-29</td>
               <td>18</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>게시글2</td>
+              <td>bbbbb</td>
+              <td>2022-07-28</td>
+              <td>21</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>게시글2</td>
+              <td>bbbbb</td>
+              <td>2022-07-28</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>게시글2</td>
+              <td>bbbbb</td>
+              <td>2022-07-27</td>
+              <td>28</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>게시글2</td>
+              <td>bbbbb</td>
+              <td>2022-07-27</td>
+              <td>17</td>
             </tr>
             <tr>
               <td>3</td>
               <td>게시글2</td>
               <td>bbbbb</td>
-              <td>2022-03-19</td>
-              <td>21</td>
+              <td>2022-07-26</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>게시글2</td>
+              <td>bbbbb</td>
+              <td>2022-07-25</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>게시글2</td>
+              <td>bbbbb</td>
+              <td>2022-07-24</td>
+              <td>45</td>
             </tr>
           </tbody>
         </Table>

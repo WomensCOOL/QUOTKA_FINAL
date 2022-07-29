@@ -3,12 +3,12 @@ spring:
     driver-class-name: org.mariadb.jdbc.Driver
     url: jdbc:mariadb://localhost:3306/quotkadb?serverTimezone=Asia/Seoul
     username: root
-    password: sarah1106
+    password: snsd0805
 
   jpa:
     open-in-view: true
     hibernate:
-      ddl-auto: update #create : 테이블을 새로 만들겠다는 의미임.
+      ddl-auto: create #create : 테이블을 새로 만들겠다는 의미임.
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
         #이름 그대로 테이블 만들겠다는 의미임.
@@ -35,8 +35,7 @@ spring:
         max-request-size: 30MB
         max-file-size: 10MB
         location: C:\upload
-    server:
-      port: '8082'
+
     logging:
       level:
         org:

@@ -42,9 +42,7 @@ function AddBoard(props) {
                 </li>
                 <li>
                   <div className="timeView">
-                    <TimeBox>
-                      <UpdateTime time={props.time} />
-                    </TimeBox>
+                    <TimeBox>{props.time}</TimeBox>
                     <ViewCounts>조회수 {props.viewCounts}</ViewCounts>
                   </div>
                 </li>
@@ -234,6 +232,7 @@ const InfoBox = styled.li`
 `;
 
 const Content = styled.div`
+  white-space: pre-wrap;
   border-top: 1px solid rgba(0, 0, 0, 0.07);
   font-size: 13px;
   padding-left: 2px;

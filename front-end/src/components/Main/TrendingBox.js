@@ -11,16 +11,16 @@ const TrendingBox = props => {
             <th className="num">{props.num}</th>
             <td className="user">
               <Img src={Quotka} />
-              name
+              {props.name}
             </td>
           </tr>
           <tr>
             <th className="num"></th>
-            <td className="content">쿼카는 행복한가? 해피쿼카에 대해</td>
+            <td className="content">{props.content}</td>
           </tr>
           <tr>
             <th className="num"></th>
-            <td className="date">2022.07.23</td>
+            <td className="date">{props.date}</td>
           </tr>
         </table>
       </Box>

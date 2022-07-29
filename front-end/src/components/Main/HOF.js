@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import Quotka from 'assests/Logo.png';
 
-const TrendingBox = () => {
+const TrendingBox = props => {
   return (
     <>
       <Box>
         <div>
           <Img src={Quotka} />
         </div>
-        <div className="name">쿼카-1</div>
-        <div className="follow">follower 231</div>
-        <div className="follow">following 23</div>
+        <div className="name">{props.name}</div>
+        <div className="follow">Follower {props.follower}</div>
+        <div className="follow">Following {props.following}</div>
       </Box>
     </>
   );
